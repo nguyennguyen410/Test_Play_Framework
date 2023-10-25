@@ -1,0 +1,14 @@
+@(data: play.libs.JsonNode)
+<html>
+<head>
+    <title>Data</title>
+</head>
+<body>
+<h1>Data</h1>
+<ul>
+    @for(item <- data) {
+    <li>@item</li> <!-- Adapt this to match the structure of your JSON data -->
+    }
+</ul>
+</body>
+</html>

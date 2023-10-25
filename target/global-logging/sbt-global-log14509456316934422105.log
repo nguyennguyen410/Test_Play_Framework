@@ -1,0 +1,54 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[warn] No sbt.version set in project/build.properties, base directory: D:\play_framework\tag-contract
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (N/A Java 11.0.8-internal)
+[debug] Load.defaultLoad until apply took 114.2934ms
+[debug]     Load.loadUnit: plugins took 104.8029ms
+[debug]     Load.loadUnit: defsScala took 0.397ms
+[debug] [Loading] Scanning directory D:\play_framework\tag-contract
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\play_framework\tag-contract, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 53.1296 ms
+[debug]         Load.resolveProject(tag-contract) took 77.0742ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id tag-contract, base: D:\play_framework\tag-contract, plugins: List(<none>))) took 168.6779ms
+[debug] [Loading] Done in D:\play_framework\tag-contract, returning: (tag-contract)
+[debug]     Load.loadUnit: loadedProjectsRaw took 196.2296ms
+[debug]     Load.loadUnit: cleanEvalClasses took 0.3174ms
+[debug]   Load.loadUnit(file:/D:/play_framework/tag-contract/, ...) took 348.7603ms
+[debug] Load.apply: load took 641.1588ms
+[debug] Load.apply: resolveProjects took 9.6731ms
+[debug] Load.apply: finalTransforms took 76.1471ms
+[debug] Load.apply: config.delegates took 11.779ms
+[debug] Load.apply: Def.make(settings)... took 475.9994ms
+[debug] Load.apply: structureIndex took 111.9966ms
+[debug] Load.apply: mkStreams took 1.6882ms
+[info] set current project to tag-contract (in build file:/D:/play_framework/tag-contract/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-62d7141964b241e47dc9
+[debug] Writing bsp connection file
+[info] started sbt server
